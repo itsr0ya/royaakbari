@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Roya Akbari">
+  <meta name="description" content="machi.r is a high-fidelity, mobile-first portfolio website inspired by illustrated Japanese streets, designed by Roya Akbari.">
+  <title>machi.r · High-Fidelity Web Prototype – Roya Akbari</title>
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="Images/logo.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <header>
+    <nav>
+      <a href="index.html">
+        <img id="logo" src="Images/logo.png" alt="logo with the letters R and A">
+      </a>
+      <ul class="nav-list">
+        <li><a href="index.html" class="active">Work</a></li>
+        <li><a href="about.html">About</a></li>
+        <li>
+          <a href="royaakbariportfoliocv.pdf" 
+             target="_blank"
+             rel="noopener"
+             aria-label="Download resume as PDF (opens in new tab)">
+            Resume
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+<main class="project-page">
+   <section class="project-hero">
+    <h1 class="project-title-ss">
+      <a href="https://itsr0ya.github.io/nt-interstate_relocation-redesign/" target="_blank" rel="noopener">
+          NT Website Redesign prototype
+        </a>
+    </h1>
+
+    <p class="project-meta">
+      <strong>A more detailed rationale and process documentation will be added soon.</strong><br>
+    </p> 
+
+  </section>
+<!-- video -->
+  <!-- <section class="project-row">
+    <h2 class="project-row__title">Prototype Mockup</h2>
+    <div class="project-row__content">
+  <p>This prototype is currently designed for mobile devices. For the best experience, please view it on your phone.</p>
+    <div class="prototype-video">
+  <video autoplay muted loop playsinline class="demo-video">
+    <source src="videos/ntgmockupvideo.mov" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
+    </div>
+  </section> -->
+
+   <section class="project-row" id="main-content" tabindex="-1">
+    <h2 class="project-row__title">Overview</h2>
+    <div class="project-row__content">
+      <p>
+      This redesign was completed as part of a 48-hour challenge, focusing on mobile and tablet layouts. A mobile-first approach was prioritised, as it reflects standard responsive design practice and ensures usability and clarity on smaller screens before scaling to larger devices.
+      </p>
+    </div>
+  </section>
+
+  <section class="project-row">
+    <h2 class="project-row__title">Typography & Readability</h2>
+    <div class="project-row__content">
+      <p>
+         The original typography appeared inconsistent and, at times, informal, which reduced the clarity and trust expected from a government website. Improvements were made to establish a clearer typographic hierarchy, ensuring headings and body text are easier to distinguish and scan.
+    </div>
+  </section>
+
+  <section class="project-row">
+    <h2 class="project-row__title">Accessibility Considerations</h2>
+    <div class="project-row__content">
+      <p>
+        Several accessibility issues were identified. The skip link was not visually distinguishable and blended into the page, making it difficult for keyboard users to locate. Additionally, the hero section presented contrast issues, as white text was placed over lighter areas of the image. The redesign addresses these issues by improving visibility and ensuring adequate colour contrast.
+      </p>
+    </div>
+  </section>
+
+  <section class="project-row">
+    <h2 class="project-row__title">Card Design & Interaction</h2>
+    <div class="project-row__content">
+      <p> While the cards in the original design were technically clickable, they did not visually communicate interactivity. The layout lacked clear boundaries and structure, making them feel less like actionable components. Additionally, image cropping was inconsistent and, in some cases, removed important visual context. For example, in the “Flying to and from the Territory” card, the main subject of the image was not visible due to how it was cropped within the layout.
+      </p>
+
+<p class="p2">In the redesign, card components were refined to appear more structured and recognisable as interactive elements. Image sizes were standardised to maintain consistency, and cropping was carefully considered to ensure visuals effectively support and communicate the content.</p>
+      
+    </div>
+  </section>
+
+  <section class="project-row">
+    <h2 class="project-row__title">Tools & Technologies</h2>
+    <div class="project-row__content">
+      <p>
+       The redesign was developed using HTML, CSS, and JavaScript, with all code written manually. Responsive behaviour was implemented through a mobile-first approach using CSS media queries. The project was deployed via GitHub, allowing the final design to be published and accessed online.
+      </p>
+      <a href="https://itsr0ya.github.io/nt-interstate_relocation-redesign/"
+         class="project-button"
+         target="_blank"
+         rel="noopener">
+        View live prototype
+      </a>
+    </div>
+</section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Roya Akbari.</p>
+    <div class="social-links">
+      <a href="https://www.linkedin.com/in/roya-akbari-5b35792a4"
+         target="_blank"
+         rel="noopener"
+         aria-label="LinkedIn profile">
+        <i class="fa-brands fa-linkedin" aria-hidden="true"></i>
+      </a>
+      <a href="mailto:akbariroya374@gmail.com" aria-label="Send me an email">
+        <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+      </a>
+    </div>
+  </footer>
+
+</body>
+</html>
