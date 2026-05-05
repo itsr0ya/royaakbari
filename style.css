@@ -504,10 +504,10 @@ header {
     row-gap: 0;
   }
 
-  .project-image img {
+  /* .project-image img {
     width: 100%;
     max-width: 100%;
-  }
+  } */
 
   .section-description {
     padding-bottom: 2rem;
