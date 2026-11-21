@@ -42,6 +42,13 @@ h2 {
   font-size: 1.2rem;
 }
 
+.project-h2 {
+  color: #757575;
+  font-size: 1.2rem;
+  font-weight: 400;
+  max-width: 65ch;
+}
+
 h3{
   font-family: "Manrope", sans-serif;
   font-weight: 400;
@@ -54,7 +61,7 @@ h3{
 .about-h3 {
   font-family: "Manrope", sans-serif;
   font-weight: 600;
-  font-size: 1rem;
+  font-size: 1.1rem;
   color: #000;
   line-height: 1.5;
   padding-bottom: 0.25rem;
@@ -64,10 +71,6 @@ h4 {
   font-family: "Manrope", sans-serif;
   font-weight: 700;
   font-size: 1rem;
-}
-
-.nowrap {
-  white-space: nowrap;
 }
 
 strong {
@@ -83,10 +86,12 @@ p {
   font-family: "Manrope", sans-serif;
   font-weight: 400;
   font-size: 1rem;
-  color: #41474E;
+  color: #757575;
+  margin-bottom: 1rem;
 }
-.p2 {
-  margin-top: 1rem;
+
+.subheading-p p {
+  font-size: 1rem;
 }
 
 header {
@@ -205,6 +210,19 @@ ul a {
   padding-top: 3rem; 
 }
 
+.project-image-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  padding-top: 1rem; 
+}
+
+.project-image-container img {
+  width: 22rem;
+  display: block;
+}
+
+
 .project-image img {
   width: 22rem;
   display: block;
@@ -237,6 +255,7 @@ ul a {
   width: 1px;
   background: #e2e2e2;
 }
+
 
 /* FOOTER */
 
@@ -365,15 +384,28 @@ footer p {
 
 .project-page {
   padding: 0 1.3rem;
+  max-width: 1280px;
+  margin: 0 auto;
 }
 
-.project-hero {
-  padding-top: 2rem;
-}
+/* .project-hero {
+  padding-left: 2rem;
+} */
 
 .project-title-ss a {
   text-decoration: none;
   color: #000;
+}
+.project-title-sh {
+  padding-top: 1.5rem;
+}
+
+.project-title-sh a {
+  text-decoration: none;
+  color: #000;
+  font-size: 2rem;
+  text-align: center;
+  align-items: center;
 }
 
 .project-meta {
@@ -394,10 +426,6 @@ footer p {
   font-size: 1.2rem;
 }
 
-.project-row__content {
-  max-width: 75ch;
-}
-
 .project-list {
   font-family:"Manrope", sans-serif;
   padding-left: 1.2rem;
@@ -412,25 +440,15 @@ footer p {
   padding-bottom: 3rem;
 }
 
-/* .prototype-video{
-  padding: 2rem 1rem 3rem 1rem;
-} */
-
-/* .demo-video{
-  width: 19.4375rem;
-  max-width: 30rem;
-  height: 36rem;
+.project-specifications {
   display: flex;
-  border-radius: 0.5rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;   
-} */
+  gap: 0.5rem;
+  padding-top: 1rem;
+}
 
-/* video {
-  width: 200px;
-  height: 600px;
-} */
+.project-specifications-container {
+  padding-top: 1rem;
+}
 
 @media (min-width: 768px) {
 
@@ -452,6 +470,7 @@ footer p {
     padding-right: 3rem;
     padding-left: 3rem;
   }
+
 
   h1 {
     text-align: left;
@@ -479,14 +498,19 @@ footer p {
   }
 
     .project-page {
-    padding-left: 3rem;
-    padding-right: 3rem;
+    padding-left: 9.5rem;
+    padding-right: 9.5rem;
   }
 
+    .project-image-container img {
+  width: 100%;
+  max-height: 30rem;
+  display: block;
+}
 }
 
 
-@media (min-width: 1300px) {
+@media (min-width: 1200px) {
 
   html {
     font-size: 120%;
@@ -529,7 +553,9 @@ header {
     margin-bottom: 4.5rem;
   
    }
-
+.info-bar {
+  gap: 2rem;
+}
 .intro-grid {
     display: grid;
     grid-template-columns: 1fr auto 1fr;  
@@ -540,7 +566,7 @@ header {
 
   .intro-divider {
     display: block;
-    height: 60%;
+    height: 70%;
     margin-top: 2rem; 
   }
 
@@ -565,7 +591,14 @@ header {
 
   .project-row {
     grid-template-columns: 1fr 2fr; 
-    column-gap: 4rem;
+    column-gap: 3rem;
     align-items: start;
   }
+   .project-image-container img {
+  width: auto;
+  max-height: auto;
+  display: block;
 }
+}
+
+
