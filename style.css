@@ -391,10 +391,9 @@ footer p {
 }
 
 .project-title-ss a {
-  text-decoration: none;
+  text-decoration: underline;
   color: #000;
-}
-.project-title-sh {
+  font-size: 2rem;
   padding-top: 1.5rem;
 }
 
