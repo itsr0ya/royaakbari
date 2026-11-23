@@ -33,7 +33,6 @@ h1 {
   font-style: normal;
   font-weight: 800;
   font-size: 2.1rem;
-  padding-left: 1rem;
 }
 
 h2 {
@@ -91,6 +90,9 @@ p {
   margin-bottom: 1rem;
 }
 
+.info-title {
+  padding-left: 1rem;
+}
 .subheading-p p {
   font-size: 1rem;
 }
@@ -140,7 +142,7 @@ ul a {
 .info-bar {
   display: flex;
   align-items: flex-start;
-  justify-content: center;
+  justify-content:space-evenly;
 }
 
 .info-block {
@@ -394,7 +396,7 @@ footer p {
 .project-title-ss a {
   text-decoration: underline;
   color: #000;
-  font-size: 2rem;
+  font-size: 1.5rem;
   padding-top: 1.5rem;
 }
 
