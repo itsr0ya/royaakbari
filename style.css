@@ -489,7 +489,8 @@ footer p {
     text-align: left;
   }
 
-  .info-block {
+  .info-block,
+  .info-title {
   padding: 1rem 0 0 0;
   font-family: "Manrope", sans-serif;
 }
