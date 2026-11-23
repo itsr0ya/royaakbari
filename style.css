@@ -28,11 +28,12 @@
 }
 
 h1 {
-  text-align: center;
+  text-align: left;
   font-family: "neulis-cursive", sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 2.1rem;
+  padding-left: 1.5rem;
 }
 
 h2 {
@@ -482,6 +483,7 @@ footer p {
 
 
   h1 {
+    padding: 0;
     text-align: left;
   }
 
@@ -559,6 +561,7 @@ header {
   }
 
    .intro-section h1 {
+    padding: 0;
     margin-bottom: 4.5rem;
   
    }
